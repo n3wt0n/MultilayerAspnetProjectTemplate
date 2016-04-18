@@ -1,0 +1,11 @@
+IDENTITY
+--------
+Add-Migration <MIGRATION_NAME> -ProjectName MVCMultiLayer -StartUpProjectName MVCMultiLayer
+Update-Database -ProjectName MVCMultiLayer -StartUpProjectName MVCMultiLayer
+Update-Database –TargetMigration <MIGRATION_NAME_FOR_ROLLBACK> -ProjectName MVCMultiLayer -StartUpProjectName MVCMultiLayer
+
+DATA
+----
+Add-Migration <MIGRATION_NAME> -ProjectName MVCMultiLayer.DAL -StartUpProjectName MVCMultiLayer
+Update-Database -ProjectName MVCMultiLayer.DAL -StartUpProjectName MVCMultiLayer
+Update-Database –TargetMigration <MIGRATION_NAME_FOR_ROLLBACK> -ProjectName MVCMultiLayer.DAL -StartUpProjectName MVCMultiLayer
