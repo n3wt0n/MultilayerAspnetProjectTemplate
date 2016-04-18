@@ -11,7 +11,7 @@ namespace MVCMultiLayer.DAL.Context
             
         }
 
-        public DbSet<Example> Volunteers { get; set; }
+        public DbSet<Example> Examples { get; set; }
        
     }
 }
