@@ -1,16 +1,10 @@
-﻿using MVCMultiLayer.DAL.Entities;
-using MVCMultiLayer.Interfaces.DAL.Context;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace MVCMultiLayer.Fakes
 {
-    public class FakeContext : DbContext, IDbContext
-    {
-        #region Sets
-        public DbSet<Example> Examples { get; set; }       
-        #endregion
-
+    public class FakeContext : FakeContextBase
+    {        
         public FakeContext()
             : base("FakeContextDB")
         {

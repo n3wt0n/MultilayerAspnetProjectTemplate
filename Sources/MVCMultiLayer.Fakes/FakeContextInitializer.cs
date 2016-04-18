@@ -7,6 +7,8 @@ namespace MVCMultiLayer.Fakes
     {
         protected override void Seed(FakeContext context)
         {
+            context.Examples.Add(new Example() { });
+
             //Insert into context
             context.SaveChanges();
         }

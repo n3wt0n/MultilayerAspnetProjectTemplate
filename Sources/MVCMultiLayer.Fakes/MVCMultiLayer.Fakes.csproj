@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FakeContext.cs" />
+    <Compile Include="FakeContextBase.cs" />
     <Compile Include="FakeContextEmpty.cs" />
     <Compile Include="FakeContextInitializer.cs" />
     <Compile Include="Http\FakeHttpContextHelper.cs" />
