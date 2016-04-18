@@ -79,6 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\RequiredIfAttribute.cs" />
     <Compile Include="BaseBL.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Example.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Extensions\NumbersExtensions.cs" />
     <Compile Include="Extensions\RouteValueDictionaryExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="IExamplesBL.cs" />
     <Compile Include="Managers\ConfigManager.cs" />
     <Compile Include="Mappers\ExampleMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace MVCMultiLayer.Business
 {
-    public class ExamplesBL : BaseBL
+    public class ExamplesBL : BaseBL, IExamplesBL
     {
         IRepository<DAL.Entities.Example> repo;
 
