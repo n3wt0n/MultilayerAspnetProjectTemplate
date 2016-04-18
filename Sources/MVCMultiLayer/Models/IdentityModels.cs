@@ -21,7 +21,7 @@ namespace MVCMultiLayer.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("MVCMultiLayerConnection", throwIfV1Schema: false)
+            : base("DatabaseConnection", throwIfV1Schema: false)
         {
         }
 

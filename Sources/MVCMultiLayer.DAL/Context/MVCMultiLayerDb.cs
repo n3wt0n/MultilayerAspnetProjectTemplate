@@ -6,7 +6,7 @@ namespace MVCMultiLayer.DAL.Context
     public class MVCMultiLayerDb : GeneralDbContext
     {
         public MVCMultiLayerDb()
-            : base("MVCMultiLayerConnection")
+            : base("DatabaseConnection")
         {
 
         }
