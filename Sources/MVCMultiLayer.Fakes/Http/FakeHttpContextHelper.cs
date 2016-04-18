@@ -28,9 +28,7 @@ namespace MVCMultiLayer.Fakes.Http
                 );                                   
 
             var claims = (ClaimsIdentity) HttpContext.Current.User.Identity;
-            claims.AddClaim(new Claim("GalleryIDs", "1"));
-            claims.AddClaim(new Claim("LocationGroupIDs", "1"));
-            claims.AddClaim(new Claim("Language", "en"));
+            claims.AddClaim(new Claim("MyClaimText", "myvalue"));            
         }       
     }
 }
