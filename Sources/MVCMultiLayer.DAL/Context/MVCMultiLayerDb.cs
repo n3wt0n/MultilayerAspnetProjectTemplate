@@ -5,13 +5,13 @@ namespace MVCMultiLayer.DAL.Context
 {
     public class MVCMultiLayerDb : GeneralDbContext
     {
-        public MVCMultiLayerDb() 
+        public MVCMultiLayerDb()
             : base("MVCMultiLayerConnection")
         {
-            
+
         }
 
         public DbSet<Example> Examples { get; set; }
-       
+
     }
 }
