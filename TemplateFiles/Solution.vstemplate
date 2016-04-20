@@ -1,0 +1,44 @@
+﻿<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>MVCMultiLayer Project Template</Name>
+    <Description>A multilayer Asp.net MVC web app project template for Visual Studio 2015</Description>
+    <Icon>Icon.ico</Icon>
+    <ProjectType>C#</ProjectType>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="Test">
+        <ProjectTemplateLink ProjectName="MVCMultiLayer.Business.Tests">
+          MVCMultiLayer.Business.Tests\MVCMultiLayer.Business.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="MVCMultiLayer.Tests">
+          MVCMultiLayer.Tests\MVCMultiLayer.Tests.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="MVCMultiLayer.Fakes">
+          MVCMultiLayer.Fakes\MVCMultiLayer.Fakes.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      
+      <ProjectTemplateLink ProjectName="MVCMultiLayer">
+        MVCMultiLayer\MVCMultiLayer.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="MVCMultiLayer.Business">
+        MVCMultiLayer.Business\MVCMultiLayer.Business.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="MVCMultiLayer.DAL">
+        MVCMultiLayer.DAL\MVCMultiLayer.DAL.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="MVCMultiLayer.Interfaces">
+        MVCMultiLayer.Interfaces\MVCMultiLayer.Interfaces.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="MVCMultiLayer.Localization">
+        MVCMultiLayer.Localization\MVCMultiLayer.Localization.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="MVCMultiLayer.Log">
+        MVCMultiLayer.Log\MVCMultiLayer.Log.vstemplate
+      </ProjectTemplateLink>
+      
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
