@@ -4,38 +4,44 @@
     <Name>MVCMultiLayer Project Template</Name>
     <Description>A multilayer Asp.net MVC web app project template for Visual Studio 2015</Description>
     <Icon>Icon.ico</Icon>
-    <ProjectType>C#</ProjectType>
+    <ProjectType>CSharp</ProjectType>
+	<CreateNewFolder>true</CreateNewFolder>
+	<DefaultName>MVCMultiLayer</DefaultName>
+	<ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+	<RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
       <SolutionFolder Name="Test">
-        <ProjectTemplateLink ProjectName="MVCMultiLayer.Business.Tests">
-          MVCMultiLayer.Business.Tests\MVCMultiLayer.Business.vstemplate
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Business.Tests">
+          MVCMultiLayer.Business.Tests\MVCMultiLayer.Business.Tests.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="MVCMultiLayer.Tests">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Tests">
           MVCMultiLayer.Tests\MVCMultiLayer.Tests.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="MVCMultiLayer.Fakes">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Fakes">
           MVCMultiLayer.Fakes\MVCMultiLayer.Fakes.vstemplate
         </ProjectTemplateLink>
       </SolutionFolder>
       
-      <ProjectTemplateLink ProjectName="MVCMultiLayer">
+      <ProjectTemplateLink ProjectName="$safeprojectname$">
         MVCMultiLayer\MVCMultiLayer.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="MVCMultiLayer.Business">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Business">
         MVCMultiLayer.Business\MVCMultiLayer.Business.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="MVCMultiLayer.DAL">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.DAL">
         MVCMultiLayer.DAL\MVCMultiLayer.DAL.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="MVCMultiLayer.Interfaces">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Interfaces">
         MVCMultiLayer.Interfaces\MVCMultiLayer.Interfaces.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="MVCMultiLayer.Localization">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Localization">
         MVCMultiLayer.Localization\MVCMultiLayer.Localization.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="MVCMultiLayer.Log">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Log">
         MVCMultiLayer.Log\MVCMultiLayer.Log.vstemplate
       </ProjectTemplateLink>
       
