@@ -93,7 +93,6 @@
     <Compile Include="Managers\ConfigManager.cs" />
     <Compile Include="Mappers\ExampleMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VolunteersBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MVCMultiLayer.DAL\MVCMultiLayer.DAL.csproj">
