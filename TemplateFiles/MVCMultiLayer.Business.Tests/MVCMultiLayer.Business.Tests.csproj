@@ -53,9 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.Business\$safeprojectname$.Business.csproj">
+    <ProjectReference Include="..\$saferootprojectname$.Business\$saferootprojectname$.Business.csproj">
       <Project>{5790caec-712f-4b34-a11d-bfd6925d8489}</Project>
-      <Name>$safeprojectname$.Business</Name>
+      <Name>$saferootprojectname$.Business</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

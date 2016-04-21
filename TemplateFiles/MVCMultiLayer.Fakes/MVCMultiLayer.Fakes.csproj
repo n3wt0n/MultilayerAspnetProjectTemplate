@@ -90,17 +90,17 @@
     <Compile Include="ViewData\FakeViewDataContext.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.DAL\$safeprojectname$.DAL.csproj">
+    <ProjectReference Include="..\$saferootprojectname$.DAL\$saferootprojectname$.DAL.csproj">
       <Project>{41414856-4857-4ba5-b6a0-9d9bbee2bdf1}</Project>
-      <Name>$safeprojectname$.DAL</Name>
+      <Name>$saferootprojectname$.DAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\$safeprojectname$.Interfaces\$safeprojectname$.Interfaces.csproj">
+    <ProjectReference Include="..\$saferootprojectname$.Interfaces\$saferootprojectname$.Interfaces.csproj">
       <Project>{18de0955-6f6e-4c27-a4d1-39c26605f886}</Project>
-      <Name>$safeprojectname$.Interfaces</Name>
+      <Name>$saferootprojectname$.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\$safeprojectname$.Log\$safeprojectname$.Log.csproj">
+    <ProjectReference Include="..\$saferootprojectname$.Log\$saferootprojectname$.Log.csproj">
       <Project>{80a89703-da57-4bda-91f1-cf8bdfeb9370}</Project>
-      <Name>$safeprojectname$.Log</Name>
+      <Name>$saferootprojectname$.Log</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

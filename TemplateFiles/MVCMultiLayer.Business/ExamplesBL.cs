@@ -1,6 +1,6 @@
 ﻿using $safeprojectname$.Entities;
 using $safeprojectname$.Mappers;
-using MVCMultiLayer.Interfaces.DAL.Repository;
+using $saferootprojectname$.Interfaces.DAL.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

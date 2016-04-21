@@ -8,8 +8,10 @@
 
 5 - Copy the zip file into the "Template Packages" folder
 
-6 - Build the "MVCMultiLayer.Wizard" project
+6 - Build the "MVCMultiLayer.Wizard" project in Release configuration
 
 7 - Copy the "MVCMultiLayer.Wizard.dll" file into the "Template Packages" folder
 
 8 - Coy both the zip file and the dll file into "C:\Users\YOUR_USER\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
+
+9 - Register the dlle file in GAC (gacutil /i MVCMultiLayer.TemplateWizard.dll)

@@ -1,4 +1,4 @@
-﻿using MVCMultiLayer.Log;
+﻿using $saferootprojectname$.Log;
 using System;
 
 namespace $safeprojectname$.Log

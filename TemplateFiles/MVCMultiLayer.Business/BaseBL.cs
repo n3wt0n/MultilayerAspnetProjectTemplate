@@ -1,5 +1,5 @@
-﻿using MVCMultiLayer.DAL.Entities;
-using MVCMultiLayer.Interfaces.DAL.Context;
+﻿using $saferootprojectname$.DAL.Entities;
+using $saferootprojectname$.Interfaces.DAL.Context;
 using System;
 using System.Web;
 

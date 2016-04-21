@@ -1,4 +1,4 @@
-namespace $safeprojectname$.Migrations
+﻿namespace $safeprojectname$.Migrations
 {
     using System;
     using System.Data.Entity;

@@ -1,4 +1,4 @@
-﻿using MVCMultiLayer.Interfaces.DAL.Context;
+﻿using $saferootprojectname$.Interfaces.DAL.Context;
 using System.Data.Entity;
 
 namespace $safeprojectname$.Context

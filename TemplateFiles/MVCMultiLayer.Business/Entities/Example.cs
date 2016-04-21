@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using EResx = MVCMultiLayer.Localization.Entities;
+using EResx = $saferootprojectname$.Localization.Entities;
 
 namespace $safeprojectname$.Entities
 {

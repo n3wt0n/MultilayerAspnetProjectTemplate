@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
-using AResx = MVCMultiLayer.Localization.Code.Attributes;
+using AResx = $saferootprojectname$.Localization.Code.Attributes;
 
 namespace $safeprojectname$.Attributes
 {

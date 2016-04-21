@@ -1,6 +1,6 @@
 ﻿using $safeprojectname$.Entities;
-using MVCMultiLayer.Interfaces.DAL.Context;
-using MVCMultiLayer.Interfaces.DAL.Repository;
+using $saferootprojectname$.Interfaces.DAL.Context;
+using $saferootprojectname$.Interfaces.DAL.Repository;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;

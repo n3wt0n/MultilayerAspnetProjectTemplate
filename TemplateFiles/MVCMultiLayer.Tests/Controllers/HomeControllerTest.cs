@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MVCMultiLayer;
-using MVCMultiLayer.Controllers;
+using $saferootprojectname$;
+using $saferootprojectname$.Controllers;
 
 namespace $safeprojectname$.Controllers
 {

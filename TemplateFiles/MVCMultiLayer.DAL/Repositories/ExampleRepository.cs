@@ -1,6 +1,6 @@
 ﻿using $safeprojectname$.Entities;
 using $safeprojectname$.GenericRepository;
-using MVCMultiLayer.Interfaces.DAL.Context;
+using $saferootprojectname$.Interfaces.DAL.Context;
 
 namespace $safeprojectname$.Repositories
 {
