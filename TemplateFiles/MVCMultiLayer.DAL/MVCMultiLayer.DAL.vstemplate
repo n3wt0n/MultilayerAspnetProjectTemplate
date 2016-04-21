@@ -35,7 +35,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
       <Folder Name="Repositories" TargetFolderName="Repositories">
-        <ProjectItem ReplaceParameters="true" TargetFileName="VolunteerRepository.cs">VolunteerRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="<ExampleRepository.cs">ExampleRepository.cs</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>
