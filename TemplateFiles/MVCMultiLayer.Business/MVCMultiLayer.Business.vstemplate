@@ -44,4 +44,8 @@
       </Folder>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVCMultiLayer.TemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=edbaec9a-22b2-4d3c-97ee-105389229c09</Assembly>
+    <FullClassName>MVCMultiLayer.TemplateWizard.ChildWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>
