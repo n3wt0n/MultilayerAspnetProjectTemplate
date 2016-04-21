@@ -5,6 +5,8 @@
     <Description>A multilayer Asp.net MVC web app project template for Visual Studio 2015</Description>
     <Icon>Icon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
+	<ProjectSubType>Web</ProjectSubType>
+	<TemplateGroupID>Web</TemplateGroupID>
 	<CreateNewFolder>true</CreateNewFolder>
 	<DefaultName>MVCMultiLayer</DefaultName>
 	<ProvideDefaultName>true</ProvideDefaultName>
