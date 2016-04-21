@@ -4,14 +4,12 @@
 
 3 - Run the "Package adaptions" PS script against the "Template Files" folder
 
-4 - Zip the content of the "Template Files" folder
+4 - Run the "ZipTemplate" PS script (execute it in the Script folder) to Zip the content of the "Template Files" folder and to move it into "TemplatePackages" folder (overwites the zip, if any)
 
-5 - Copy the zip file into the "Template Packages" folder
+5 - Build the "MVCMultiLayer.Wizard" project in Release configuration
 
-6 - Build the "MVCMultiLayer.Wizard" project in Release configuration
+6 - Copy the "MVCMultiLayer.Wizard.dll" file into the "Template Packages" folder
 
-7 - Copy the "MVCMultiLayer.Wizard.dll" file into the "Template Packages" folder
+7 - Coy the zip file into "C:\Users\YOUR_USERNAME\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
 
-8 - Coy both the zip file and the dll file into "C:\Users\YOUR_USER\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
-
-9 - Register the dlle file in GAC (gacutil /i MVCMultiLayer.TemplateWizard.dll)
+8 - Register the dlle file in GAC (gacutil /i MVCMultiLayer.TemplateWizard.dll)
