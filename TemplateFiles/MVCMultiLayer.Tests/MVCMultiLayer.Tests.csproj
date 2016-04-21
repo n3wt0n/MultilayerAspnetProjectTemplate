@@ -93,9 +93,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCMultiLayer\MVCMultiLayer.csproj">
+    <ProjectReference Include="..\$safeprojectname$\$safeprojectname$.csproj">
       <Project>{6A7A6B6B-1EBD-475D-A932-EDC70779337E}</Project>
-      <Name>MVCMultiLayer</Name>
+      <Name>$safeprojectname$</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

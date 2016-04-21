@@ -331,21 +331,21 @@
     <Content Include="Scripts\jquery-2.2.3.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCMultiLayer.Business\MVCMultiLayer.Business.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Business\$safeprojectname$.Business.csproj">
       <Project>{5790caec-712f-4b34-a11d-bfd6925d8489}</Project>
-      <Name>MVCMultiLayer.Business</Name>
+      <Name>$safeprojectname$.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MVCMultiLayer.Interfaces\MVCMultiLayer.Interfaces.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Interfaces\$safeprojectname$.Interfaces.csproj">
       <Project>{18de0955-6f6e-4c27-a4d1-39c26605f886}</Project>
-      <Name>MVCMultiLayer.Interfaces</Name>
+      <Name>$safeprojectname$.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MVCMultiLayer.Localization\MVCMultiLayer.Localization.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Localization\$safeprojectname$.Localization.csproj">
       <Project>{27871664-8197-4b0a-8cc3-3ca4993604ae}</Project>
-      <Name>MVCMultiLayer.Localization</Name>
+      <Name>$safeprojectname$.Localization</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MVCMultiLayer.Log\MVCMultiLayer.Log.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Log\$safeprojectname$.Log.csproj">
       <Project>{80a89703-da57-4bda-91f1-cf8bdfeb9370}</Project>
-      <Name>MVCMultiLayer.Log</Name>
+      <Name>$safeprojectname$.Log</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

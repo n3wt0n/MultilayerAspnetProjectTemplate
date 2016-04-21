@@ -53,9 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCMultiLayer.Business\MVCMultiLayer.Business.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Business\$safeprojectname$.Business.csproj">
       <Project>{5790caec-712f-4b34-a11d-bfd6925d8489}</Project>
-      <Name>MVCMultiLayer.Business</Name>
+      <Name>$safeprojectname$.Business</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

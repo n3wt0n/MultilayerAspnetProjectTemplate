@@ -49,8 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\GeneralDbContext.cs" />
-    <Compile Include="Context\MVCMultiLayerDb.cs" />
-    <Compile Include="Context\MVCMultiLayerDbInitializer.cs" />
+    <Compile Include="Context\$safeprojectname$Db.cs" />
+    <Compile Include="Context\$safeprojectname$DbInitializer.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Example.cs" />
     <Compile Include="GenericRepository\Repository.cs" />
@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MVCMultiLayer.Interfaces\MVCMultiLayer.Interfaces.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Interfaces\$safeprojectname$.Interfaces.csproj">
       <Project>{18de0955-6f6e-4c27-a4d1-39c26605f886}</Project>
-      <Name>MVCMultiLayer.Interfaces</Name>
+      <Name>$safeprojectname$.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
