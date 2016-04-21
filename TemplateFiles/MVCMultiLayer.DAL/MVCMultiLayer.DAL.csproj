@@ -56,7 +56,7 @@
     <Compile Include="GenericRepository\Repository.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\VolunteerRepository.cs" />
+    <Compile Include="Repositories\ExampleRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -4,9 +4,9 @@ using MVCMultiLayer.Interfaces.DAL.Context;
 
 namespace MVCMultiLayer.DAL.Repositories
 {
-    public class VolunteerRepository : Repository<Example>
+    public class ExampleRepository : Repository<Example>
     {
-        public VolunteerRepository(IDbContext context)
+        public ExampleRepository(IDbContext context)
             : base(context)
         {
 
