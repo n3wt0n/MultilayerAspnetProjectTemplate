@@ -1,3 +1,5 @@
+TEMPLATE GENERATION
+====================
 1 - Export the templates form single projects
 
 2 - Extract the files into "Template Files" folder
@@ -13,3 +15,10 @@
 7 - Coy the zip file into "C:\Users\YOUR_USERNAME\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
 
 8 - Register the dlle file in GAC (gacutil /i MVCMultiLayer.TemplateWizard.dll)
+
+
+TO OBTAIN THE PUBLIC KEY OF THE WIZARD COMPONENT
+================================================
+1 - Sign the assembly
+
+2 - sn -T MVCMultiLayer.TemplateWizard.dll
