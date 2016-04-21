@@ -1,7 +1,15 @@
-Project Name and Assembly names: MVCMultiLayer
+1 - Export the templates form single projects
 
-General guidelines: https://msdn.microsoft.com/en-us/library/xkh1wxd8.aspx
+2 - Extract the files into "Template Files" folder
 
-Parameters: https://msdn.microsoft.com/en-us/library/ms185311.aspx
+3 - Run the "Package adaptions" PS script against the "Template Files" folder
 
-VSIX: https://msdn.microsoft.com/en-us/library/dd885241.aspx
+4 - Zip the content of the "Template Files" folder
+
+5 - Copy the zip file into the "Template Packages" folder
+
+6 - Build the "MVCMultiLayer.Wizard" project
+
+7 - Copy the "MVCMultiLayer.Wizard.dll" file into the "Template Packages" folder
+
+8 - Coy both the zip file and the dll file into "C:\Users\YOUR_USER\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
