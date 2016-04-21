@@ -28,6 +28,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMultiLayer.Business.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMultiLayer.Fakes", "MVCMultiLayer.Fakes\MVCMultiLayer.Fakes.csproj", "{F54EE837-25CD-4771-9BC7-32A796F7F69C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateWizard", "TemplateWizard", "{7D768D80-D23E-4706-97F5-5F3AA2F8D574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMultiLayer.TemplateWizard", "MVCMultiLayer.TemplateWizard\MVCMultiLayer.TemplateWizard.csproj", "{EDBAEC9A-22B2-4D3C-97EE-105389229C09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +74,10 @@ Global
 		{F54EE837-25CD-4771-9BC7-32A796F7F69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54EE837-25CD-4771-9BC7-32A796F7F69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54EE837-25CD-4771-9BC7-32A796F7F69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBAEC9A-22B2-4D3C-97EE-105389229C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAEC9A-22B2-4D3C-97EE-105389229C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAEC9A-22B2-4D3C-97EE-105389229C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBAEC9A-22B2-4D3C-97EE-105389229C09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +86,6 @@ Global
 		{36D0028A-E24C-4461-8873-B82E443B9468} = {8CF129C1-749F-418A-8CFB-132679966C6B}
 		{DEBB8349-6582-423A-B789-D2B3DF0D260E} = {8CF129C1-749F-418A-8CFB-132679966C6B}
 		{F54EE837-25CD-4771-9BC7-32A796F7F69C} = {8CF129C1-749F-418A-8CFB-132679966C6B}
+		{EDBAEC9A-22B2-4D3C-97EE-105389229C09} = {7D768D80-D23E-4706-97F5-5F3AA2F8D574}
 	EndGlobalSection
 EndGlobal
