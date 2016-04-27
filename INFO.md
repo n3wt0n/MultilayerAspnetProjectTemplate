@@ -12,7 +12,7 @@ TEMPLATE GENERATION
 
 6 - Copy the "MVCMultiLayer.Wizard.dll" file into the "Template Packages" folder
 
-7 - Coy the zip file into "C:\Users\YOUR_USERNAME\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
+7 - Copy the zip file into "C:\Users\YOUR_USERNAME\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"
 
 8 - Register the dlle file in GAC (gacutil /i MVCMultiLayer.TemplateWizard.dll)
 
