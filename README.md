@@ -27,11 +27,16 @@ It has all the components you need to start a structured, multi-layer Web Applic
   * Fake entities and helpers
 
 
-# How to use the template
+# How to intall the template
 
 It is very simple!
 + Grab the **MVCMultiLayer.Template.zip** and the **MVCMultiLayer.TemplateWizard.dll** files from the *"TemplatePackages"* folder
 + Copy the **zip** file to the *"C:\Users\YOUR_USERNAME\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#\"* folder
 + Register the **dll** library into the GAC with the command `gacutil /i MVCMultiLayer.TemplateWizard.dll`
+
+
+# How to use the Project Template
+After the template installation, just start Visual Studio 2015 and go to create a new C# Web project.
+A new **"MVCMultiLayer"** item will appear in the list ;)
 
 Read the "INFO.md" file to have more information on template generation and usage.
