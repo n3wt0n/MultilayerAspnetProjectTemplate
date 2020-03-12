@@ -27,4 +27,4 @@ jobs:
       run: msbuild Sources/MVCMultiLayer.sln /p:Configuration=Release
     
     - name: Execute Unit Tests
-      run: vstest.console.exe MVCMultiLayer.Tests.dll
+      run: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe MVCMultiLayer.Tests.dll
