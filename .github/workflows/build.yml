@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Build:
+    name: Build
+    runs-on: [windows-latest]
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.2
+
+    - name: Restore NuGet packages
+      run: nuget restore Sources/MVCMultiLayer.sln
+
+    - name: Build the Solution 
+      run: msbuild Sources/MVCMultiLayer.sln /p:Configuration=Release
+    
+    - name: Execute Unit Tests
+      run: vstest.console.exe MVCMultiLayer.Tests.dll
