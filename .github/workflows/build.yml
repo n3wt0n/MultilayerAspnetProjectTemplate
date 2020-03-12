@@ -30,4 +30,4 @@ jobs:
       run: msbuild Sources/MVCMultiLayer.sln /p:Configuration=Release
     
     - name: Execute Unit Tests
-      run: vstest.console.exe MVCMultiLayer.Tests.dll
+      run: vstest.console.exe **/*.Tests.dll
